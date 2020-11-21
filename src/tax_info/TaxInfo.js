@@ -1,8 +1,20 @@
 import { Typography, Box } from '@material-ui/core'
 import React, { Component } from 'react'
 import classes from './TaxInfo.module.css'
+import Canada from '../Map/Canada'
 
 export default class TaxInfo extends Component {
+    constructor(props) {
+        super(props)
+        this.state = {
+            province: null,
+        }
+    }
+
+    mapHandler = (event) => {
+        this.setState({ province: event.target.id })
+    }
+
     displayTaxInfo1() {
         return (
             <Typography>
@@ -59,6 +71,8 @@ export default class TaxInfo extends Component {
                 <Box>
                     <Box>{this.displayTaxInfo3()}</Box>
                 </Box>
+                <h1>Currently selected province: {this.state.province}</h1>
+                <Canada onClick={this.mapHandler} height="50%" />
             </div>
         )
     }
