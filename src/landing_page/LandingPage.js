@@ -16,7 +16,7 @@ export default class LandingPage extends Component {
                     options={{
                         background: {
                             color: {
-                                value: '#0d47a1',
+                                value: '#014421',
                             },
                         },
                         fpsLimit: 60,
@@ -82,7 +82,27 @@ export default class LandingPage extends Component {
                                 value: 0.5,
                             },
                             shape: {
-                                type: '$',
+                                type: 'image',
+                                image: [
+                                    {
+                                        src:
+                                            'https://www.pngkit.com/png/full/32-320453_white-dollar-sign-png.png',
+                                        width: 100000,
+                                        height: 120000,
+                                    },
+                                    {
+                                        src:
+                                            'https://www.pngkit.com/png/full/32-320453_white-dollar-sign-png.png',
+                                        width: 1000000,
+                                        height: 2000000,
+                                    },
+                                    {
+                                        src:
+                                            'https://www.pngkit.com/png/full/32-320453_white-dollar-sign-png.png',
+                                        width: 100000000,
+                                        height: 200000000,
+                                    },
+                                ],
                             },
                             size: {
                                 random: true,
@@ -95,10 +115,10 @@ export default class LandingPage extends Component {
                 <div className={classes.PageWrapper}>
                     <h1 className={classes.Title}>TaxHax</h1>
                     <ButtonGroup>
-                        <Box mr={10}>
+                        <Box mr={5}>
                             <Button
                                 variant="contained"
-                                color="primary"
+                                color="white"
                                 href="/tax-info"
                             >
                                 Learn About Taxes
@@ -107,10 +127,10 @@ export default class LandingPage extends Component {
                         <Box>
                             <Button
                                 variant="contained"
-                                color="primary"
+                                color="white"
                                 href="/tax-quiz"
                             >
-                                What Do I Do!?
+                                Take the Tax Quiz!
                             </Button>
                         </Box>
                     </ButtonGroup>
