@@ -4,6 +4,7 @@ import LandingPage from './landing_page/LandingPage'
 import TaxQuiz from './tax_quiz/TaxQuiz'
 import TaxInfo from './tax_info/TaxInfo'
 import { Route, Switch, BrowserRouter } from 'react-router-dom'
+import Particles from 'react-tsparticles'
 
 function App() {
     return (
