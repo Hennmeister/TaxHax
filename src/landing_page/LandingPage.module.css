@@ -11,4 +11,6 @@
 
 .Title {
     z-index: 9999;
+    font-size: 5000;
+    font-weight: bolder;
 }
