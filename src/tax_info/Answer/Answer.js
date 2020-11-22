@@ -1,8 +1,6 @@
 import React, { Component } from 'react'
 import classes from './Answer.module.css'
 import Image from './Image'
-import IconButton from '@material-ui/core/IconButton';
-import KeyboardArrowDownIcon from '@material-ui/icons/KeyboardArrowDown';
 
 export default class Answer extends Component {
     render() {
@@ -20,9 +18,6 @@ export default class Answer extends Component {
                 <div className={classes.AnsWrapper}>
                     {ansBlock}
                 </div>
-                <IconButton color="primary" size="large" aria-label="Scroll Down">
-                    <KeyboardArrowDownIcon />
-                </IconButton>
             </div>
         )
     }

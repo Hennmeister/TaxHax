@@ -80,7 +80,7 @@ export default class TaxInfo extends Component {
                     options={{
                         background: {
                             color: {
-                                value: '#acfaac',
+                                value: '#75e675',
                             },
                         },
                         fpsLimit: 60,
@@ -193,8 +193,9 @@ export default class TaxInfo extends Component {
                         position: 'relative',
                     }}
                 >
-                    {/* <Question q={question} responses={responses} topic={topic} responseHandler={(resp) => this.showAnswer(resp)}></Question> */}
                 </div>
+                <div className={classes.introWrapper}><h1>School never taught me how to do my taxes . . . but TaxHax will!</h1><h3>TaxHax is an educational quiz all about taxes and specifically targeted to students. With direct questions and links to further resources, people of all experience levels can find the information specifically relevant to them about filing taxes in Canada.</h3><p>TaxHax is an educational tool designed to inspire young adults to learn how to be a full adult and does not provide legal, tax, or accounting advice. You are encouraged to please consult legal, tax, and accounting professionals.</p></div>
+
                 {this.renderQuestions()}
             </div>
         )
