@@ -2,10 +2,13 @@ import React, { Component } from 'react'
 import classes from './Question.module.css'
 
 import { Box, Button, ButtonGroup } from '@material-ui/core'
+import Canada from '../../Map/Canada'
+import mapAnswers from '../mapAnswers/mapAnswers'
 
-export default class Question extends Component {
+export default class MapQuestion extends Component {
     state = {
         InAnimation: false,
+        province: null,
     }
 
     clickHandler = (resp) => {
@@ -16,31 +19,33 @@ export default class Question extends Component {
         )
     }
 
+    mapHandler = (event) => {
+        this.setState({ province: event.target.id })
+    }
+
     render() {
         let boxClasses = [classes.QuestionBox]
         if (this.state.InAnimation) {
             boxClasses.push(classes.SlideTransition)
         }
-        const responseButtons = this.props.responses.map((resp) => (
-            <Button
-                m={2}
-                onClick={() => this.clickHandler(resp)}
-                style={{ width: '7em', height: '5em', fontSize: 'inherit' }}
-            >
-                {resp.option}
-            </Button>
-        ))
 
         return (
             <Box className={boxClasses.join(' ')}>
                 <h1 className={classes.Question}>{this.props.q}</h1>
-                <ButtonGroup
-                    size="large"
-                    color="primary"
-                    aria-label="outlined primary button group"
+                <h4>Currently selected province: {this.state.province}</h4>
+                <Canada onClick={this.mapHandler} />
+                <Button
+                    onClick={() =>
+                        this.clickHandler(mapAnswers[this.state.province])
+                    }
+                    style={{
+                        width: '20em',
+                        height: '5em',
+                        fontSize: 'inherit',
+                    }}
                 >
-                    {responseButtons}
-                </ButtonGroup>
+                    That's my province/territory
+                </Button>
                 <h2>{this.props.topic}</h2>
             </Box>
         )

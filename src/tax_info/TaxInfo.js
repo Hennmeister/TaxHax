@@ -8,6 +8,10 @@ import Question from './Question/Question'
 import Answer from './Answer/Answer'
 import Canada from '../Map/Canada'
 
+import questions from './questions/questions'
+import MapQuestion from './Question/MapQuestion'
+import MapTopicBlock from './MapTopicBlock'
+
 export default class TaxInfo extends Component {
     state = {
         province: null,
@@ -15,6 +19,25 @@ export default class TaxInfo extends Component {
 
     mapHandler = (event) => {
         this.setState({ province: event.target.id })
+    }
+
+    renderQuestions = () => {
+        let qs = []
+        for (let idx in questions) {
+            const q = questions[idx]
+            const element = (
+                <TopicBlock
+                    key={idx}
+                    question={q.question}
+                    responses={q.responses}
+                    image={q.image}
+                    topic={q.topic}
+                    link={q.link}
+                ></TopicBlock>
+            )
+            qs.push(element)
+        }
+        return qs
     }
 
     render() {
@@ -132,8 +155,37 @@ export default class TaxInfo extends Component {
                 >
                     Tax Info
                 </h1>
-                {/* <h1>Currently selected province: {this.state.province}</h1>
-                <Canada onClick={this.mapHandler} height="50%" /> */}
+
+                <div
+                    style={{
+                        position: 'relative',
+                    }}
+                >
+                    {/* <Question q={question} responses={responses} topic={topic} responseHandler={(resp) => this.showAnswer(resp)}></Question> */}
+                </div>
+                {this.renderQuestions()}
+                <MapTopicBlock
+                    question="Are You Older Than 18?"
+                    responses={[
+                        {
+                            option: 'Yes',
+                            answer: 'Then You Have To Do Taxes!',
+                            explanation:
+                                'Any Canadian Citizen over 18 blah blah',
+                        },
+                        {
+                            option: 'No',
+                            answer: 'THEN DONT WORRY',
+                            explanation:
+                                'Canadian Citizens under 18 dont pay taxes $ Canadian Citizens under 18 dont pay taxes $ Canadian Citizens under 18 dont pay taxes',
+                        },
+                    ]}
+                    image="q1_img.png"
+                    topic="Personal Info"
+                    useList={true}
+                    imgPos="left"
+                    link={{ title: 'Epic Resource', url: 'playtrivia.games' }}
+                />
                 <TopicBlock
                     question="Are You Older Than 18?"
                     responses={[
