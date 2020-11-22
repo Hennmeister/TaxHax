@@ -179,12 +179,13 @@ export default class TaxInfo extends Component {
                 <h1
                     style={{
                         position: 'fixed',
-                        right: '0px',
+                        right: '5px',
+                        top: '-20px',
                         color: 'white',
                         textDecorationLine: 'underline',
                     }}
                 >
-                    Tax Info
+                    TaxHax
                 </h1>
 
                 <div
