@@ -1,70 +1,29 @@
-# Getting Started with Create React App
+## Inspiration
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+If you make more than $11,000 a year, you must file your taxes. Even if you don’t, you can still do your taxes because it's a great practice! Your information will already be on file and it will be easier to do your taxes the next time around. But, who enjoys taxes? Unknown to most, students can gain many benefits by filing their taxes. TaxHax offers a fun and interactive solution to the problem that is the mundane process of filing taxes.
 
-## Available Scripts
+## What it does
 
-In the project directory, you can run:
+TaxHax is an educational quiz all about taxes and specifically targeted to students. With direct questions and links to further resources, people of all experience levels can find the information specifically relevant to them about filing taxes in Canada.
 
-### `yarn start`
+## How we built it
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+We built TaxHax using the React framework.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Challenges we ran into
 
-### `yarn test`
+Presenting information in a digestible manner was difficult. A lot of information about taxes was available to us, however, pinpointing the most important facts students should be aware of was a lengthy process. Figuring out what would make learning about taxes more fun was also a challenge. We decided to proceed with a quiz. Who doesn't love quizzes?
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Accomplishments that we're proud of
 
-### `yarn build`
+We're proud of experimenting with React and learning how to use it. We're also proud of how well we collaborated on the project.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## What we learned
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+We learned about web development and the React framework. We also learned about the benefits of filing taxes in all Canadian provinces.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## What's next for TaxHax
 
-### `yarn eject`
+In the future, we would like to make TaxHax a more comprehensive resource. We would love to help educate the rest of the Canadian population about taxes in a more exciting way. We would also like to improve our UX/UI.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Disclaimer: TaxHax is an educational tool designed to inspire students to learn about taxes and to introduce them to adulting. TaxHax does not provide legal, tax, or accounting advice. You are encouraged to consult legal, tax, or accounting professionals for more personal matters.

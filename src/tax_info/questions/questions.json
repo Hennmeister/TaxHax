@@ -12,12 +12,14 @@
             },
             {
                 "option": "No",
-                "answer": "Best of luck in your oversea studies!",
+                "answer": "Best of luck in your studies overseas!",
                 "explanation": "If you are a Canadian citizen, proceed to the Canada Revenue Agency website to get information specifically for students who studied at educational institutions outside of Canada.",
-                "links": [{
-                    "title": "CRA Website",
-                    "url": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/rc192.html"
-                }]
+                "links": [
+                    {
+                        "title": "CRA Website",
+                        "url": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/rc192.html"
+                    }
+                ]
             }
         ]
     },
@@ -31,10 +33,12 @@
                 "option": "Yes",
                 "answer": "Did you know you could be considered a resident of Canada for tax purposes?",
                 "explanation": "You may even have to file a Canadian income tax return! Learn more at the Canada Revenue Agency website below",
-                "links": [{
-                    "title": "CRA Reference",
-                    "url": "https://www.canada.ca/en/revenue-agency/services/tax/international-non-residents/individuals-leaving-entering-canada-non-residents/international-students-studying-canada.html?utm_campaign=not-applicable&utm_medium=vanity-url&utm_source=canada-ca_taxes-international-students"
-                }]
+                "links": [
+                    {
+                        "title": "CRA Reference",
+                        "url": "https://www.canada.ca/en/revenue-agency/services/tax/international-non-residents/individuals-leaving-entering-canada-non-residents/international-students-studying-canada.html?utm_campaign=not-applicable&utm_medium=vanity-url&utm_source=canada-ca_taxes-international-students"
+                    }
+                ]
             },
             {
                 "option": "No",
