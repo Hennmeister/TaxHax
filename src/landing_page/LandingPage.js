@@ -4,6 +4,7 @@ import Button from '@material-ui/core/Button'
 import ButtonGroup from '@material-ui/core/ButtonGroup'
 import Particles from 'react-tsparticles'
 import './Particles.css'
+import logo from './logo.png'
 
 import { Box } from '@material-ui/core'
 
@@ -113,7 +114,7 @@ export default class LandingPage extends Component {
                     }}
                 />
                 <div className={classes.PageWrapper}>
-                    <h1 className={classes.Title}>TaxHax</h1>
+                    <img src={logo} className="App-logo" alt="logo" />
                     <ButtonGroup>
                         <Box mr={5}>
                             <Button
