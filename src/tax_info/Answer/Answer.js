@@ -7,11 +7,11 @@ import KeyboardArrowDownIcon from '@material-ui/icons/KeyboardArrowDown';
 export default class Answer extends Component {
     render() {
         let {answer, explanation, image, link, useList, imgLayout, } = this.props
-        let exp = <><h2 className={classes.Explanation}>{explanation}</h2><a href={"//" + link.url}>{"Read More Here: " + link.title}</a></>
+        let exp = <><h2 className={classes.Explanation}>{explanation}</h2>{link ? <a href={"//" + link.url}>{"Read More Here: " + link.title}</a> : null}</>
         if (useList) {
             let expArr = explanation.split('$')
             let listItems = expArr.slice(1).map(str => <li>{str}</li>)  
-            exp = <div className={classes.Explanation}> <p>{expArr[0]}</p><ul>{listItems}</ul><a href={"//" + link.url}>{"Read More Here: " + link.title}</a></div>
+            exp = <div className={classes.Explanation}> <p>{expArr[0]}</p><ul>{listItems}</ul>{link ? <a href={"//" + link.url}>{"Read More Here: " + link.title}</a> : null}</div>
         }
         let ansBlock = imgLayout === "left" ? <><Image img={image}/>{exp} </> : <>{exp} <Image img={image}/></> 
         return (

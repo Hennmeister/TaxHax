@@ -9,7 +9,7 @@ function App() {
     return (
         <BrowserRouter>
             <Switch>
-                <Route path="/tax-quiz" component={TaxInfo}></Route>
+                <Route path="/tax-info" component={TaxInfo}></Route>
                 <Route path="/" exact component={LandingPage}></Route>
             </Switch>
         </BrowserRouter>

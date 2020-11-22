@@ -148,7 +148,7 @@ export default class TaxInfo extends Component {
                 <h1
                     style={{
                         position: 'fixed',
-                        margin: '0 5px',
+                        right: '0px',
                         color: 'white',
                         textDecorationLine: 'underline',
                     }}
@@ -172,19 +172,21 @@ export default class TaxInfo extends Component {
                             answer: 'Then You Have To Do Taxes!',
                             explanation:
                                 'Any Canadian Citizen over 18 blah blah',
+                            link:{title: 'Epic Resource', url: 'playtrivia.games' }
                         },
                         {
                             option: 'No',
                             answer: 'THEN DONT WORRY',
                             explanation:
                                 'Canadian Citizens under 18 dont pay taxes $ Canadian Citizens under 18 dont pay taxes $ Canadian Citizens under 18 dont pay taxes',
+                                link:{ title: 'Epic Resource', url: 'playtrivia.games' }
+
                         },
                     ]}
                     image="q1_img.png"
                     topic="Personal Info"
                     useList={true}
                     imgPos="left"
-                    link={{ title: 'Epic Resource', url: 'playtrivia.games' }}
                 />
                 <TopicBlock
                     question="Are You Older Than 18?"
@@ -194,19 +196,21 @@ export default class TaxInfo extends Component {
                             answer: 'Then You Have To Do Taxes!',
                             explanation:
                                 'Any Canadian Citizen over 18 blah blah',
+                            link:{ title: 'Epic Resource', url: 'playtrivia.games' }
+
                         },
                         {
                             option: 'No',
                             answer: 'THEN DONT WORRY',
                             explanation:
                                 'Canadian Citizens under 18 dont pay taxes $ Canadian Citizens under 18 dont pay taxes $ Canadian Citizens under 18 dont pay taxes',
+                            link:{ title: 'Epic Resource', url: 'playtrivia.games' }
                         },
                     ]}
                     image="q1_img.png"
                     topic="Personal Info"
                     useList={true}
                     imgPos="left"
-                    link={{ title: 'Epic Resource', url: 'playtrivia.games' }}
                 ></TopicBlock>
                 <TopicBlock
                     question="Do You Have All The Slips You Need?"
