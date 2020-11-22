@@ -9,19 +9,19 @@
                 "option": "Yes",
                 "answer": "Great!",
                 "explanation": "We have a ton of tips waiting for you. Continue on to learn more about the tax filing process that is unique to students like you.",
-                "links": [{
+                "link": {
                     "title": "",
                     "url": ""
-                }]
+                }
             },
             {
                 "option": "No",
                 "answer": "Best of luck in your oversea studies!",
                 "explanation": "If you are a Canadian citizen, proceed to the Canada Revenue Agency website to get information specifically for students studying at educational institutions outside of Canada.",
-                "links": [{
+                "link": {
                     "title": "CRA Website",
-                    "url": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/rc192.html"
-                }]
+                    "url": "www.canada.ca/en/revenue-agency/services/forms-publications/publications/rc192.html"
+                }
             }
         ]
     },
@@ -35,19 +35,16 @@
                 "option": "Yes",
                 "answer": "We got the information for you!",
                 "explanation": "Did you know you could be considered a resident of Canada for tax purposes? You may even have to file a Canadian income tax return! Learn more at the Canada Revenue Agency website below.",
-                "links": [{
-                    "title": "CRA Reference",
-                    "url": "https://www.canada.ca/en/revenue-agency/services/tax/international-non-residents/individuals-leaving-entering-canada-non-residents/international-students-studying-canada.html?utm_campaign=not-applicable&utm_medium=vanity-url&utm_source=canada-ca_taxes-international-students"
-                }]
+                "link": "www.canada.ca/en/revenue-agency/services/tax/international-non-residents/individuals-leaving-entering-canada-non-residents/international-students-studying-canada.html?utm_campaign=not-applicable&utm_medium=vanity-url&utm_source=canada-ca_taxes-international-students"
             },
             {
                 "option": "No",
                 "answer": "There is a lot for students to learn about filing taxes as a resident of Canada!",
                 "explanation": "This educational quiz is the perfect way to educate yourself on the topic of taxes from a student perspective in an interactive and digestible manner.",
-                "links": [{
+                "links": {
                     "title": "",
                     "url": ""
-                }]
+                }
             }
         ]
     },
@@ -61,19 +58,19 @@
                 "option": "Yes",
                 "answer": "Awesome start!",
                 "explanation": "There are many expenses that students can claim after they file their taxes (such as on tuition fees, interest paid on student loans, and eligible moving expenses). Read more at the Government of Canada website below.",
-                "links": [{
+                "links": {
                     "title": "Government of Canada Website",
-                    "url": "https://www.canada.ca/en/revenue-agency/news/newsroom/tax-tips/tax-tips-2017/students-taxes-what-to-know.html"
-                }]
+                    "url": "www.canada.ca/en/revenue-agency/news/newsroom/tax-tips/tax-tips-2017/students-taxes-what-to-know.html"
+                }
             },
             {
                 "option": "No",
                 "answer": "This is the place to learn!",
                 "explanation": "A tax return is a mandatory form filed to the Canada Revenue Agency (CRA) detailing information related to your taxable income of the previous year. However, even students--working or not--have reasons to file their taxes (for example, claiming expenses). Read more at the CRA website below.",
-                "links": [{
+                "links": {
                     "title": "CRA Website",
-                    "url": "https://www.canada.ca/en/revenue-agency/news/newsroom/tax-tips/tax-tips-2017/students-taxes-what-to-know.html"
-                }]
+                    "url": "www.canada.ca/en/revenue-agency/news/newsroom/tax-tips/tax-tips-2017/students-taxes-what-to-know.html"
+                }
             }
         ]
     },
@@ -86,20 +83,20 @@
             {
                 "option": "Yes",
                 "answer": "That’s great!",
-                "explanation": "Did you know that you can have tax deductions for tuition, textbooks, and even relocation? Read more at the Government of Canada website below and remember to <i>save all receipts for school related expenses</i>!",
-                "links": [{
+                "explanation": "Did you know that you can have tax deductions for tuition, textbooks, and even relocation? Read more at the Government of Canada website below and remember to save all receipts for school related expenses!",
+                "links": {
                     "title": "Government of Canada Website",
-                    "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/segments/students/common-deductions-credits-students.html"
-                }]
+                    "url": "www.canada.ca/en/revenue-agency/services/tax/individuals/segments/students/common-deductions-credits-students.html"
+                }
             },
             {
                 "option": "No",
                 "answer": "No worries! We've got your back.",
                 "explanation": "Tax deductions are a way to reduce how much tax you have to pay. Certain expenses will simply reduce how much you owe!",
-                "links": [{
+                "links": {
                     "title": "",
                     "url": ""
-                }]
+                }
             }
         ]
     },
@@ -122,10 +119,10 @@
                 "option": "No",
                 "answer": "We’re here to help!",
                 "explanation": "People who are employed or earn investment income have their employers/payers/administrators send them statements known as tax slips. Common forms for university students are the T2202 (Tuition & Enrollment Certificate), T4A (Statement of Pension, Retirement, Annuity, and Other Income), and T4 (Statement of Remuneration Paid). Information about these forms will likely be available through your student portal or registrar. Read more about tax slips below.",
-                "links": [{
+                "links": {
                     "title": "Government of Canada Website",
-                    "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/tax-slips.html"
-                }]
+                    "url": "www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/tax-slips.html"
+                }
             }
         ]
     },
@@ -139,19 +136,19 @@
                 "option": "Yes",
                 "answer": "That’s wonderful!",
                 "explanation": "Did you know that as a student, your tax situation is likely simple enough to help from a free tax clinic? Whether you get professional tax advice or get a volunteer to help you, you never have to struggle with your tax return.",
-                "links": [{
+                "links": {
                     "title": "",
                     "url": ""
-                }]
+                }
             },
             {
                 "option": "No",
                 "answer": "Let us inform you!",
                 "explanation": "If you are a student earning no income or income that comes from scholarships, fellowships, bursaries, or grants, your tax situation is simple enough to get help! There are free tax clinics offered across Canada with volunteers who may be able to help you! See if you are eligible at the link below.",
-                "links": [{
+                "links": {
                     "title": "Government of Canada Website",
-                    "url": "https://www.canada.ca/en/revenue-agency/campaigns/free-tax-help.html"
-                }]
+                    "url": "www.canada.ca/en/revenue-agency/campaigns/free-tax-help.html"
+                }
             }
         ]
     },
@@ -165,19 +162,19 @@
                 "option": "Yes",
                 "answer": "Awesome!",
                 "explanation": "Whether you’ve chosen to file them via software, paper, or phone, make sure you get your tax return in on time to avoid being charged penalties or interest!",
-                "links": [{
+                "links": {
                     "title": "",
                     "url": ""
-                }]
+                }
             },
             {
                 "option": "No",
                 "answer": "We’ve got you covered!",
                 "explanation": "You generally have three options. First, you can file it online through electronic software. Otherwise, you can download and order your income tax forms, fill it in, and mail it in to the CRA. Lastly, some people are able to file their tax return by phone. These people are mailed invitation letters with instructions to do so by the CRA. View software products certified by the government of Canada below.",
-                "links": [{
+                "links": {
                     "title": "Government of Canada Website",
-                    "url": "https://www.canada.ca/en/revenue-agency/campaigns/free-tax-help.html"
-                }]
+                    "url": "www.canada.ca/en/revenue-agency/campaigns/free-tax-help.html"
+                }
             }
         ]
     },
@@ -191,19 +188,19 @@
                 "option": "Yes",
                 "answer": "Great to hear it!",
                 "explanation": "Expect to receive your notice of assessment and any refunds within two weeks if you file online and within eight weeks when you file by paper.",
-                "links": [{
+                "links": {
                     "title": "",
                     "url": ""
-                }]
+                }
             },
             {
                 "option": "No",
                 "answer": "We got the details!",
                 "explanation": "A notice of assessment is an evaluation of your tax return sent to you by the Canada Revenue Agency. It includes details such as the day they checked your tax return, any amounts that you owe, and any amounts you may receive as a refund or credit. Read more at the link below.",
-                "links": [{
+                "links": {
                     "title": "Government of Canada Website",
-                    "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/notice-assessment-understand.html"
-                }]
+                    "url": "www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/notice-assessment-understand.html"
+                }
             }
         ]
     },
@@ -217,19 +214,19 @@
                 "option": "Yes",
                 "answer": "Awesome!",
                 "explanation": "Did you know that you can even change information for years up to 10 calendar years ago? It’s great that even if you made a mistake, you can amend the information online or through mail!",
-                "links": [{
+                "links": {
                     "title": "",
                     "url": ""
-                }]
+                }
             },
             {
                 "option": "No",
                 "answer": " We have the information for you!",
                 "explanation": "First, wait until you receive your notice of assessment. Then, you can make an adjustment using the secure online services Change My Return (CMR) or ReFILE provided by the Government of Canada. Otherwise, you can mail a T1 Adjustment Request form along with any other supporting documentation to the CRA. Learn more about the process.",
-                "links": [{
+                "links": {
                     "title": "Government of Canada Website",
-                    "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/change-your-return.html"
-                }]
+                    "url": "www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/change-your-return.html"
+                }
             }
         ]
     },
@@ -243,19 +240,19 @@
                 "option": "Yes",
                 "answer": "That’s what we’re here for!",
                 "explanation": "Helping you learn about taxes is the goal of TaxHax and we couldn’t be happier to achieve it!",
-                "links": [{
+                "links": {
                     "title": "",
                     "url": ""
-                }]
+                }
             },
             {
                 "option": "No",
                 "answer": "We’ve sorry to hear that!",
                 "explanation": "Or maybe you were a tax professional from the start. :) Regardless, we hope this quiz served as a helpful reminder about how to file a tax return and we encourage you to go online and learn more!",
-                "links": [{
+                "links": {
                     "title": "",
                     "url": ""
-                }]
+                }
             }
         ]
     }
