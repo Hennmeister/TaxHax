@@ -1,0 +1,50 @@
+[
+    {
+        "id": "q1",
+        "topic": "Personal Info",
+        "question": "Are You a Student Studying in Canada?",
+        "image": "q1_img.png",
+        "responses": [
+            {
+                "option": "Yes",
+                "answer": "Great!",
+                "explanation": "We have a ton of tips waiting for you. Continue on to learn more about the tax filing process that is unique to you."
+            },
+            {
+                "option": "No",
+                "answer": "Best of luck in your studies overseas!",
+                "explanation": "If you are a Canadian citizen, proceed to the Canada Revenue Agency website to get information specifically for students who studied at educational institutions outside of Canada.",
+                "links": [
+                    {
+                        "title": "CRA Website",
+                        "url": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/rc192.html"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "q2",
+        "topic": "Personal Info",
+        "question": "Are You an InternationalStudent Studying in Canada?",
+        "image": "q1_img.png",
+        "responses": [
+            {
+                "option": "Yes",
+                "answer": "Did you know you could be considered a resident of Canada for tax purposes?",
+                "explanation": "You may even have to file a Canadian income tax return! Learn more at the Canada Revenue Agency website below",
+                "links": [
+                    {
+                        "title": "CRA Reference",
+                        "url": "https://www.canada.ca/en/revenue-agency/services/tax/international-non-residents/individuals-leaving-entering-canada-non-residents/international-students-studying-canada.html?utm_campaign=not-applicable&utm_medium=vanity-url&utm_source=canada-ca_taxes-international-students"
+                    }
+                ]
+            },
+            {
+                "option": "No",
+                "answer": "There is a lot for students to learn about filing taxes as a resident of Canada!",
+                "explanation": "This educational quiz is the perfect way to educate yourself on the topic in an interactive and digestible manner."
+            }
+        ]
+    }
+]
