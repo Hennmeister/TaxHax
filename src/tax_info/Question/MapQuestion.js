@@ -9,10 +9,11 @@ export default class MapQuestion extends Component {
     state = {
         InAnimation: false,
         province: null,
+        show: true,
     }
 
     clickHandler = (resp) => {
-        this.setState({ InAnimation: true }, () =>
+        this.setState({ InAnimation: true, show: false }, () =>
             setTimeout(() => {
                 this.props.responseHandler(resp)
             }, 750)
@@ -20,7 +21,7 @@ export default class MapQuestion extends Component {
     }
 
     mapHandler = (event) => {
-        this.setState({ province: event.target.id })
+        this.setState({ province: event.target.id, show: true })
     }
 
     render() {
@@ -31,9 +32,13 @@ export default class MapQuestion extends Component {
 
         return (
             <Box className={boxClasses.join(' ')}>
-                <h4>Currently selected province: {this.state.province}</h4>
-                <Canada onClick={this.mapHandler} />
+                <h4>Please choose your province/territory: </h4>
+                <div style={{ position: 'absolute', top: '250px' }}>
+                    {this.state.show && this.state.province}
+                </div>
+                <Canada onClick={this.mapHandler} width="100%" />
                 <Button
+                    color="primary"
                     onClick={() =>
                         this.clickHandler(mapAnswers[this.state.province])
                     }
@@ -44,9 +49,8 @@ export default class MapQuestion extends Component {
                         fontSize: 'inherit',
                     }}
                 >
-                    That's my province/territory
+                    Confirm my province/territory
                 </Button>
-                <h2>{this.props.topic}</h2>
             </Box>
         )
     }
