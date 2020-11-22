@@ -8,7 +8,7 @@ TaxHax is an educational quiz all about taxes and specifically targeted to stude
 
 ## How we built it
 
-We built TaxHax using the React framework.
+We built TaxHax using React.
 
 ## Challenges we ran into
 
