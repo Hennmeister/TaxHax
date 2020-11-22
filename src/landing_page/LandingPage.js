@@ -131,7 +131,7 @@ export default class LandingPage extends Component {
                                 <Button
                                     variant="contained"
                                     color="primary"
-                                    href="/tax-info"
+                                    href="/TaxHax/tax-info"
                                     size="large"
                                 >
                                     Take the Tax Quiz!
