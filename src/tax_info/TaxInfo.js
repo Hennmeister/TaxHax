@@ -37,6 +37,37 @@ export default class TaxInfo extends Component {
             )
             qs.push(element)
         }
+        const canmap = (
+            <MapTopicBlock
+                question="Are You Older Than 18?"
+                responses={[
+                    {
+                        option: 'Yes',
+                        answer: 'Then You Have To Do Taxes!',
+                        explanation: 'Any Canadian Citizen over 18 blah blah',
+                        link: {
+                            title: 'Epic Resource',
+                            url: 'playtrivia.games',
+                        },
+                    },
+                    {
+                        option: 'No',
+                        answer: 'THEN DONT WORRY',
+                        explanation:
+                            'Canadian Citizens under 18 dont pay taxes $ Canadian Citizens under 18 dont pay taxes $ Canadian Citizens under 18 dont pay taxes',
+                        link: {
+                            title: 'Epic Resource',
+                            url: 'playtrivia.games',
+                        },
+                    },
+                ]}
+                image="q1_img.png"
+                topic="Personal Info"
+                useList={true}
+                imgPos="left"
+            />
+        )
+        qs.splice(2, 0, canmap)
         return qs
     }
 
@@ -164,72 +195,6 @@ export default class TaxInfo extends Component {
                     {/* <Question q={question} responses={responses} topic={topic} responseHandler={(resp) => this.showAnswer(resp)}></Question> */}
                 </div>
                 {this.renderQuestions()}
-                <MapTopicBlock
-                    question="Are You Older Than 18?"
-                    responses={[
-                        {
-                            option: 'Yes',
-                            answer: 'Then You Have To Do Taxes!',
-                            explanation:
-                                'Any Canadian Citizen over 18 blah blah',
-                            link:{title: 'Epic Resource', url: 'playtrivia.games' }
-                        },
-                        {
-                            option: 'No',
-                            answer: 'THEN DONT WORRY',
-                            explanation:
-                                'Canadian Citizens under 18 dont pay taxes $ Canadian Citizens under 18 dont pay taxes $ Canadian Citizens under 18 dont pay taxes',
-                                link:{ title: 'Epic Resource', url: 'playtrivia.games' }
-
-                        },
-                    ]}
-                    image="q1_img.png"
-                    topic="Personal Info"
-                    useList={true}
-                    imgPos="left"
-                />
-                <TopicBlock
-                    question="Are You Older Than 18?"
-                    responses={[
-                        {
-                            option: 'Yes',
-                            answer: 'Then You Have To Do Taxes!',
-                            explanation:
-                                'Any Canadian Citizen over 18 blah blah',
-                            link:{ title: 'Epic Resource', url: 'playtrivia.games' }
-
-                        },
-                        {
-                            option: 'No',
-                            answer: 'THEN DONT WORRY',
-                            explanation:
-                                'Canadian Citizens under 18 dont pay taxes $ Canadian Citizens under 18 dont pay taxes $ Canadian Citizens under 18 dont pay taxes',
-                            link:{ title: 'Epic Resource', url: 'playtrivia.games' }
-                        },
-                    ]}
-                    image="q1_img.png"
-                    topic="Personal Info"
-                    useList={true}
-                    imgPos="left"
-                ></TopicBlock>
-                <TopicBlock
-                    question="Do You Have All The Slips You Need?"
-                    responses={[
-                        { option: 'Yes', answer: '', explanation: '' },
-                        { option: 'No', answer: '', explanation: '' },
-                    ]}
-                    image=""
-                    topic="Forms"
-                ></TopicBlock>
-                <TopicBlock
-                    question="Have You Filed Taxes Online Before?"
-                    responses={[
-                        { option: 'Yes', answer: '', explanation: '' },
-                        { option: 'No', answer: '', explanation: '' },
-                    ]}
-                    image=""
-                    topic="Filing"
-                ></TopicBlock>
             </div>
         )
     }
