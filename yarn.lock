@@ -1260,6 +1260,12 @@
     react-is "^16.8.0"
     react-transition-group "^4.4.0"
 
+"@material-ui/icons@^4.9.1":
+  version "4.9.1"
+  resolved "https://registry.yarnpkg.com/@material-ui/icons/-/icons-4.9.1.tgz#fdeadf8cb3d89208945b33dbc50c7c616d0bd665"
+  dependencies:
+    "@babel/runtime" "^7.4.4"
+
 "@material-ui/styles@^4.10.0":
   version "4.10.0"
   resolved "https://registry.yarnpkg.com/@material-ui/styles/-/styles-4.10.0.tgz#2406dc23aa358217aa8cc772e6237bd7f0544071"
@@ -7148,10 +7154,6 @@ path-type@^4.0.0:
 pathseg@^1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/pathseg/-/pathseg-1.2.0.tgz#22af051e28037671e7799e296fe96c5dcbe53acd"
-<<<<<<< HEAD
-=======
-  integrity sha512-+pQS7lTaoVIXhaCW7R3Wd/165APzZHWzYVqe7dxzdupxQwebgpBaCmf0/XZwmoA/rkDq3qvzO0qv4d5oFVrBRw==
->>>>>>> 096393ab0082c2ff36dfb37fe13a21e23c952b51
 
 pbkdf2@^3.0.3:
   version "3.1.1"
@@ -8196,10 +8198,6 @@ react-transition-group@^4.4.0:
 react-tsparticles@^1.18.11:
   version "1.18.11"
   resolved "https://registry.yarnpkg.com/react-tsparticles/-/react-tsparticles-1.18.11.tgz#4d74d46f652a787572aa0c34b7d5e19e0032b7ed"
-<<<<<<< HEAD
-=======
-  integrity sha512-fMNHl9M2pTCtlodFOSbajI5UNDRaKPPHeo7gvu7CuHyvnhgsNp97iaQLNdOSkvwD2t1MBSXjW//PeNTCuEiLIg==
->>>>>>> 096393ab0082c2ff36dfb37fe13a21e23c952b51
   dependencies:
     lodash "^4.17.20"
     tslib "^2.0.3"
@@ -9542,18 +9540,10 @@ tslib@^1.10.0, tslib@^1.8.1, tslib@^1.9.0:
 tslib@^2.0.3:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.0.3.tgz#8e0741ac45fc0c226e58a17bfc3e64b9bc6ca61c"
-<<<<<<< HEAD
-=======
-  integrity sha512-uZtkfKblCEQtZKBF6EBXVZeQNl82yqtDQdv+eck8u7tdPxjLu2/lp5/uPW+um2tpuxINHWy3GhiccY7QgEaVHQ==
->>>>>>> 096393ab0082c2ff36dfb37fe13a21e23c952b51
 
 tsparticles@^1.18.11:
   version "1.18.11"
   resolved "https://registry.yarnpkg.com/tsparticles/-/tsparticles-1.18.11.tgz#924d74cf40656727f5df047b53c4761463a4f6e7"
-<<<<<<< HEAD
-=======
-  integrity sha512-F5czk8foRoywWHDYDT0eZhQwCXOHz7OGhJCsoybThTUIT+nwc1Eclltm/TMrnnxZZghF3Fo0VL8nN4inf+pQbA==
->>>>>>> 096393ab0082c2ff36dfb37fe13a21e23c952b51
   optionalDependencies:
     pathseg "^1.2.0"
 
