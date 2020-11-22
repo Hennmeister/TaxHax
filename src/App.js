@@ -7,10 +7,10 @@ import Particles from 'react-tsparticles'
 
 function App() {
     return (
-        <BrowserRouter>
+        <BrowserRouter basename="/TaxHax">
             <Switch>
-                <Route path="/TaxHax/tax-info" component={TaxInfo}></Route>
-                <Route path="/TaxHax" exact component={LandingPage}></Route>
+                <Route path="/tax-info" exact component={TaxInfo}></Route>
+                <Route path="/" exact component={LandingPage}></Route>
             </Switch>
         </BrowserRouter>
     )

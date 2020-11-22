@@ -57,7 +57,7 @@ class Canada extends React.Component {
                 xmlns="http://www.w3.org/2000/svg"
                 width={this.props.width}
                 height={this.props.height}
-                viewBox="-24500 -27050 55700 47100"
+                viewBox="-24500 -15050 55700 32000"
             >
                 {drawDetails()}
                 {this.buildProvinces()}

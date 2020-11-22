@@ -8,6 +8,7 @@ import logo from './logo.png'
 import { Box } from '@material-ui/core'
 import { createMuiTheme } from '@material-ui/core/styles'
 import { ThemeProvider } from '@material-ui/styles'
+import { Link } from 'react-router-dom'
 
 const theme = createMuiTheme({
     palette: {
@@ -128,14 +129,15 @@ export default class LandingPage extends Component {
                         <h1 className={classes.Title}>TaxHax</h1>
                         <ButtonGroup>
                             <Box>
-                                <Button
-                                    variant="contained"
-                                    color="primary"
-                                    href="/TaxHax/tax-info"
-                                    size="large"
-                                >
-                                    Take the Tax Quiz!
-                                </Button>
+                                <Link to="tax-info">
+                                    <Button
+                                        variant="contained"
+                                        color="primary"
+                                        size="large"
+                                    >
+                                        Take the Tax Quiz!
+                                    </Button>
+                                </Link>
                             </Box>
                         </ButtonGroup>
                     </div>
