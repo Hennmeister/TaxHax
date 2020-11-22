@@ -1,17 +1,16 @@
 import React, { Component } from 'react'
 import classes from './Question.module.css'
 
-import { Box, Button } from '@material-ui/core'
+import { Box, Button, ButtonGroup } from '@material-ui/core'
 
 export default class Question extends Component {
     state = {
         InAnimation: false,
     }
 
-    clickHandler = () => {
+    clickHandler = (resp) => {
         this.setState({InAnimation: true}, () => setTimeout(() => {
-            this.setState({InAnimation: false})
-            this.props.responseHandler()
+            this.props.responseHandler(resp)
         }, 750))
     }
 
@@ -20,22 +19,16 @@ export default class Question extends Component {
         if(this.state.InAnimation) {
             boxClasses.push(classes.SlideTransition)
         }
-
-        const responseButtons =
-            this.props.responseType === 'yn' ? (
-                <Box>
-                    <Button onClick={this.clickHandler}>Yes</Button>
-                    <Button>No</Button>
-                </Box>
-            ) : (
-                <Button>Don't recognize this type</Button>
-            )
+        const responseButtons = this.props.responses.map(resp => 
+            <Button onClick={() => this.clickHandler(resp)} style={{width:"7em", height:"5em", fontSize: "inherit"}}>{resp.option}</Button>
+        )
 
         return (
             <Box className={boxClasses.join(' ')}>
                 <h1 className={classes.Question}>{this.props.q}</h1>
-                <h2>Secondary header</h2>
-                {responseButtons}
+                <ButtonGroup size="large" color="primary" aria-label="outlined primary button group">{responseButtons}</ButtonGroup>
+                <h2>{this.props.topic}</h2>
+                
             </Box>
         )
     }
