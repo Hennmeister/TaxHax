@@ -31,13 +31,13 @@ export default class MapQuestion extends Component {
 
         return (
             <Box className={boxClasses.join(' ')}>
-                <h1 className={classes.Question}>{this.props.q}</h1>
                 <h4>Currently selected province: {this.state.province}</h4>
                 <Canada onClick={this.mapHandler} />
                 <Button
                     onClick={() =>
                         this.clickHandler(mapAnswers[this.state.province])
                     }
+                    disabled={!this.state.province}
                     style={{
                         width: '20em',
                         height: '5em',

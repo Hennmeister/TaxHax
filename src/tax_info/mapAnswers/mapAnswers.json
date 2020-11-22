@@ -2,105 +2,105 @@
     "British Columbia": {
         "answer": "We have good news for you!",
         "explanation": "As of January 1, 2019, the B.C. education credit was eliminated. If you have unused tuition and education credits from previous years, you may claim the carry forward amounts in 2019 and future years.",
-        "links": [{
+        "link": {
             "title": "Learn More",
-            "url": "https://www2.gov.bc.ca/gov/content/taxes/income-taxes/personal/credits/basic#:~:text=Tuition%20and%20Education%20Credits,in%202019%20and%20future%20years"
-        }]
+            "url": "www2.gov.bc.ca/gov/content/taxes/income-taxes/personal/credits/basic#:~:text=Tuition%20and%20Education%20Credits,in%202019%20and%20future%20years"
+        }
     },
-    "Yukon": {
+    "Yukon Territories": {
         "answer": "We have good news for you!",
         "explanation": "The Yukon child benefit is a non-taxable amount paid monthly to help low‑ and modest‑income families with the cost of raising children under 18 years of age.",
-        "links": [{
+        "link": {
             "title": "Learn More",
-            "url": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/provincial-territorial-programs/yukon.htmll"
-        }]
+            "url": "www.canada.ca/en/revenue-agency/services/child-family-benefits/provincial-territorial-programs/yukon.htmll"
+        }
     },
     "Northwest Territories":{
         "answer": "We have good news for you!",
         "explanation": "The Northwest Territories child benefit is a non-taxable amount paid monthly to qualifying low and middle income families with children under 18 years of age.",
-        "links": [{
+        "link": {
             "title": "Learn More",
-            "url": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/provincial-territorial-programs/northwest-territories.html"
-        }]
+            "url": "www.canada.ca/en/revenue-agency/services/child-family-benefits/provincial-territorial-programs/northwest-territories.html"
+        }
     },
     "Nunavut": {
         "answer": "We have good news for you!",
         "explanation": "The education and textbook tax credits: Full-time post-secondary students can deduct $465 per month they are in school from their taxable income. Part-time students can deduct $140 per month they are in school.",
-        "links": [{
+        "link": {
             "title": "Learn More",
-            "url": "https://turbotax.intuit.ca/tips/nunavut-territorial-taxes-and-credits-5071"
-        }]
+            "url": "turbotax.intuit.ca/tips/nunavut-territorial-taxes-and-credits-5071"
+        }
     },
     "Saskatchewan": {
         "answer": "We have good news for you!",
         "explanation": " The Graduate Retention Program provides a rebate up to $20,000 of tuition fees paid by eligible graduates who live in Saskatchewan and who file a Saskatchewan income tax return.",
-        "links": [{
+        "link": {
             "title": "Learn More",
-            "url": "https://www.saskatchewan.ca/residents/education-and-learning/graduate-retention-program#:~:text=The%20Graduate%20Retention%20Program%20provides,institutions%20apply%20on%20your%20behalf"
-        }]
+            "url": "www.saskatchewan.ca/residents/education-and-learning/graduate-retention-program#:~:text=The%20Graduate%20Retention%20Program%20provides,institutions%20apply%20on%20your%20behalf"
+        }
     },
     "Alberta": {
         "answer": "We have good news for you!",
         "explanation": "If you are under 18 years of age, you and your family may be eligible for the Alberta child and family benefit, which is a tax-free amount paid to families that have children under 18 years of age.",
-        "links": [{
+        "link": {
             "title": "Learn More",
-            "url": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/provincial-territorial-programs/province-alberta.html"
-        }]
+            "url": "www.canada.ca/en/revenue-agency/services/child-family-benefits/provincial-territorial-programs/province-alberta.html"
+        }
     },
     "Manitoba": {
         "answer": "We have good news for you!",
         "explanation": "The Manitoba Tuition Fee Income Tax Rebate will provide you with a 60% Rebate on your post-secondary tuition fees.",
-        "links": [{
+        "link": {
             "title": "Learn More",
-            "url": "https://www.gov.mb.ca/asset_library/tuitionrebate/tuition_rebate.pdf"
-        }]
+            "url": "www.gov.mb.ca/asset_library/tuitionrebate/tuition_rebate.pdf"
+        }
     },
     "Ontario":{
         "answer": "We have good news for you!",
         "explanation": "Apply to OSAP for money that can help you pay for a college or university education.",
-        "links": [{
+        "link": {
             "title": "Learn More",
-            "url": "https://www.ontario.ca/page/osap-ontario-student-assistance-program"
-        }]
+            "url": "www.ontario.ca/page/osap-ontario-student-assistance-program"
+        }
     },
     "Quebec": {
         "answer": "We have good news for you!",
-        "explanation": " If you have low to medium income, you are eligible for the Solidarity Tax Credit. $ Benefit from refundable tax credits $Get back your paycheck deductions",     
-        "links": [{
+        "explanation": " If you have low to medium income, you are eligible for the Solidarity Tax Credit. $ Benefit from refundable tax credits $ Get back your paycheck deductions",     
+        "link": {
             "title": "Learn More",
-            "url": "https://www.revenuquebec.ca/en/citizens/tax-credits/solidarity-tax-credit/"
-        }]
+            "url": "www.revenuquebec.ca/en/citizens/tax-credits/solidarity-tax-credit/"
+        }
     },
     "Newfoundland and Labrador": {
         "answer": "We have good news for you!",
         "explanation": "Adding tuition fee to your tax return helps you to collect tuition credits which can be later used to lower your tax slab and get good amount of income tax refunded when a student starts working full time",
-        "links": [{
+        "link": {
             "title": "Learn More",
-            "url": "https://www.mun.ca/international/programming/gather-tax-info.php"
-        }]
+            "url": "www.mun.ca/international/programming/gather-tax-info.php"
+        }
     },
     "New Brunswick": {
         "answer": "We have good news for you!",
         "explanation": "The NBCTB is a tax-free amount paid monthly to qualifying families with children under 18 years of age. $ The New Brunswick working income supplement (NBWIS) is an additional benefit paid to qualifying families with earned income who have children under 18 years of age.",
-        "links": [{
+        "link": {
             "title": "Learn More",
-            "url": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/provincial-territorial-programs/province-new-brunswick.html"
-        }]
+            "url": "www.canada.ca/en/revenue-agency/services/child-family-benefits/provincial-territorial-programs/province-new-brunswick.html"
+        }
     },
     "Nova Scotia": {
         "answer": "We have good news for you!",
         "explanation": "The Nova Scotia affordable living tax credit (NSALTC) is a tax-free amount paid to make life more affordable for low and modest incomes to individuals and families. $ The credit offsets the increase in the HST and provides additional income for these individuals and families.",
-        "links": [{
+        "link": {
             "title": "Learn More",
-            "url": "https://www.canada.ca/en/revenue-agency/services/child-family-benefits/provincial-territorial-programs/province-nova-scotia.html#nsltc"
-        }]
+            "url": "www.canada.ca/en/revenue-agency/services/child-family-benefits/provincial-territorial-programs/province-nova-scotia.html#nsltc"
+        }
     },
     "Prince Edward Island": {
         "answer": "We have good news for you!",
         "explanation": " Many students pay more than the provincial limit for claimable tuition fees in one year. Instead of letting these tuition fees go to waste, you can make the fees work for you and your family a little more by transferring the unusable balance to another individual.",
-        "links": [{
+        "link": {
             "title": "Learn More",
-            "url": "https://turbotax.intuit.ca/tips/tuition-tax-credits-in-prince-edward-island-11311"
-        }]
+            "url": "turbotax.intuit.ca/tips/tuition-tax-credits-in-prince-edward-island-11311"
+        }
     }
 }
