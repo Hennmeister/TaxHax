@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/TaxHax/static/css/main.8743dcef.chunk.css",
-    "main.js": "/TaxHax/static/js/main.9fc72e57.chunk.js",
-    "main.js.map": "/TaxHax/static/js/main.9fc72e57.chunk.js.map",
-    "runtime-main.js": "/TaxHax/static/js/runtime-main.a8341b9f.js",
-    "runtime-main.js.map": "/TaxHax/static/js/runtime-main.a8341b9f.js.map",
-    "static/js/2.b0e11653.chunk.js": "/TaxHax/static/js/2.b0e11653.chunk.js",
-    "static/js/2.b0e11653.chunk.js.map": "/TaxHax/static/js/2.b0e11653.chunk.js.map",
-    "static/js/3.a39c3ab8.chunk.js": "/TaxHax/static/js/3.a39c3ab8.chunk.js",
-    "static/js/3.a39c3ab8.chunk.js.map": "/TaxHax/static/js/3.a39c3ab8.chunk.js.map",
-    "index.html": "/TaxHax/index.html",
-    "static/css/main.8743dcef.chunk.css.map": "/TaxHax/static/css/main.8743dcef.chunk.css.map",
-    "static/js/2.b0e11653.chunk.js.LICENSE.txt": "/TaxHax/static/js/2.b0e11653.chunk.js.LICENSE.txt",
-    "static/media/logo.103b5fa1.svg": "/TaxHax/static/media/logo.103b5fa1.svg",
-    "static/media/logo.fdda5b09.png": "/TaxHax/static/media/logo.fdda5b09.png"
+    "main.css": "./static/css/main.8743dcef.chunk.css",
+    "main.js": "./static/js/main.091daf2c.chunk.js",
+    "main.js.map": "./static/js/main.091daf2c.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.1d564322.js",
+    "runtime-main.js.map": "./static/js/runtime-main.1d564322.js.map",
+    "static/js/2.b0e11653.chunk.js": "./static/js/2.b0e11653.chunk.js",
+    "static/js/2.b0e11653.chunk.js.map": "./static/js/2.b0e11653.chunk.js.map",
+    "static/js/3.a39c3ab8.chunk.js": "./static/js/3.a39c3ab8.chunk.js",
+    "static/js/3.a39c3ab8.chunk.js.map": "./static/js/3.a39c3ab8.chunk.js.map",
+    "index.html": "./index.html",
+    "static/css/main.8743dcef.chunk.css.map": "./static/css/main.8743dcef.chunk.css.map",
+    "static/js/2.b0e11653.chunk.js.LICENSE.txt": "./static/js/2.b0e11653.chunk.js.LICENSE.txt",
+    "static/media/logo.103b5fa1.svg": "./static/media/logo.103b5fa1.svg",
+    "static/media/logo.fdda5b09.png": "./static/media/logo.fdda5b09.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.a8341b9f.js",
+    "static/js/runtime-main.1d564322.js",
     "static/js/2.b0e11653.chunk.js",
     "static/css/main.8743dcef.chunk.css",
-    "static/js/main.9fc72e57.chunk.js"
+    "static/js/main.091daf2c.chunk.js"
   ]
 }
