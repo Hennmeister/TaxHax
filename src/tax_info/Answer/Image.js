@@ -5,7 +5,7 @@ export default class Image extends Component {
         console.log("../assets/" + this.props.img)
         return (
             <div className={classes.Image}>
-                <img src={process.env.PUBLIC_URL + "/assets/q1_img.png"} alt="Finance Image"/>
+                <img src={process.env.PUBLIC_URL + "/assets/" + this.props.img} alt="Finance Image"/>
             </div>
         )
     }
