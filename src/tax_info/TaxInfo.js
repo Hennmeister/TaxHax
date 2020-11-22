@@ -1,6 +1,7 @@
 import { Typography, Box } from '@material-ui/core'
 import React, { Component } from 'react'
 import classes from './TaxInfo.module.css'
+<<<<<<< HEAD
 import TopicBlock from './TopicBlock'
 import Particles from 'react-tsparticles'
 import '../landing_page/Particles.css'
@@ -8,12 +9,68 @@ import Question from './Question/Question'
 import Answer from './Answer/Answer'
 
 export default class TaxInfo extends Component {
+=======
+import Canada from '../Map/Canada'
+
+export default class TaxInfo extends Component {
+    constructor(props) {
+        super(props)
+        this.state = {
+            province: null,
+        }
+    }
+
+    mapHandler = (event) => {
+        this.setState({ province: event.target.id })
+    }
+
+    displayTaxInfo1() {
+        return (
+            <Typography>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </Typography>
+        )
+    }
+    displayTaxInfo2() {
+        return (
+            <Typography>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </Typography>
+        )
+    }
+    displayTaxInfo3() {
+        return (
+            <Typography>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </Typography>
+        )
+    }
+>>>>>>> 096393ab0082c2ff36dfb37fe13a21e23c952b51
 
     ageResponseHandler = (resp) => {
 
     }
     render() {
         return (
+<<<<<<< HEAD
             <div className={classes.wrapper}>
                      <Particles
                      style={{position: "fixed"}}
@@ -141,6 +198,24 @@ export default class TaxInfo extends Component {
                     image=""
                     topic="Filing">
                  </TopicBlock>
+=======
+            <div>
+                <h1>Tax Info</h1>
+                <h2 className={classes.InfoBlock}>Some question?</h2>
+                <Box>
+                    <Box>{this.displayTaxInfo1()}</Box>
+                </Box>
+                <h2 className={classes.InfoBlock}>Some question?</h2>
+                <Box>
+                    <Box>{this.displayTaxInfo2()}</Box>
+                </Box>
+                <h2 className={classes.InfoBlock}>Some question?</h2>
+                <Box>
+                    <Box>{this.displayTaxInfo3()}</Box>
+                </Box>
+                <h1>Currently selected province: {this.state.province}</h1>
+                <Canada onClick={this.mapHandler} height="50%" />
+>>>>>>> 096393ab0082c2ff36dfb37fe13a21e23c952b51
             </div>
         )
     }
