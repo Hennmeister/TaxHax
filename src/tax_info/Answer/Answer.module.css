@@ -1,0 +1,39 @@
+.AnsWrapper {
+    width: 90vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.AnsWrapper > * {
+    margin-bottom: 5%;
+}
+
+.Image {
+    width: 50%;
+}
+
+.Image img {
+    width: 20vw;
+}
+
+.Explanation {
+    width: 50%;
+    background-color: rgba(255, 255, 240, 0.5);
+}
+
+.title {
+    text-decoration: underline;
+    color: rgb(8, 1, 70);
+    padding: 5px;
+    margin-top: -10px;
+}
+
+ul {
+    text-align: left;
+    padding-left: 20px;
+}
+
+a {
+    color: rgb(15, 27, 139);
+}
